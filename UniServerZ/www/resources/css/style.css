@@ -1,0 +1,291 @@
+body {
+	background-color: white;
+	font-size: 100%;
+}
+
+
+h1 {
+	/* Text */ 
+	text-align: center;
+	font-size: 5em;
+	max-width: 100%;
+	color: white;
+	font-family: "Times New Roman", times, serif;
+	
+	/* Background */
+	background-color: black;
+	margin: 0px;
+	border: 1px solid white;
+	
+	
+}
+
+div.header{
+	width: 100%;
+	align-content: center;
+	margin-left: 1px;
+}
+div.linx {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	display: inline-block;
+	text-align: center;
+	font-size: 3em;
+	width: 33.15%;
+	max-width: 100%;
+	height: 75px;
+	background-color: black;
+
+}
+
+div.leftdown{
+	background-color:white;
+	float: left;
+	clear: left;
+	width: 48%;
+	margin: 2px;
+	height: 370px;
+	padding: 5px;
+	border: 3px solid gray;
+}
+
+div.leftup{
+	background-color:white;
+	float: left;
+	clear: left;
+	width: 48%;
+	margin: 2px;
+	padding: 5px;
+	height: 373px;
+	border: 3px solid gray;
+}
+	
+div.right {
+	background-color:white;
+	display: inline-block;
+	max-width: 40%;
+	margin: 2px;
+	padding: 5px;
+	height: 763px;
+	border: 3px solid gray;
+}
+
+
+
+/* Links */
+
+a.button:link{
+	text-decoration: none;
+	color: white;
+}
+	
+a.button:visited{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+a.button:hover {
+	color: orange;
+}
+
+a.button:active {
+	color: red; 
+}
+
+
+
+p {
+	font-family: "Arial", Arial, Sans-serif;
+	color: black;
+	font-size: 1em;
+	
+}
+
+h2 {
+	font-family: "Times New Roman", times, serif;
+	font-size: 4em;
+	background-color:orange;
+	max-width: 91.3%;
+	
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: "Arial", Arial, Sans-serif;
+	padding: 5px;
+}
+
+div.it-p {
+	color: black;
+	font-style: italic;
+	font-size: 1.2em;
+	font-family: "Arial", Arial, Sans-serif;
+	background-color: orange;
+	max-width: 50%;
+	padding: 2px;
+}
+
+ul.ing-list{
+	list-style-type: circle;
+	font-family: "Arial", Arial, Sans-serif;
+	color: black;
+	font-size: 1em;
+}
+
+ol.dir-list{
+	font-family: "Arial", Arial, Sans-serif;
+	color: black;
+	font-size: 1em;
+	padding: 5px;
+}
+
+table.table-comments,tr.td-comments,td.td-comments,td.td-commentator{
+	font-family: "Arial", Arial, Sans-serif;
+	padding: 5px;
+	border: 2px solid black;
+	border-collapse: collapse;
+} 
+
+td.commentator{
+	width: 10%;
+	
+}
+
+td.comments{
+	max-width:40%;
+}
+
+table.table-comments{
+	width: 50%;
+	background-color: #FFF5FF;
+}
+
+table.cal-table, tr.cal-tr,td.cal-td,td.day-td,tr.day-tr{
+	font-family: "Arial", Arial, Sans-serif;
+	padding: 5px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+td.cal-td{
+	width: 13%;
+	height: 150px;
+}
+
+table.cal-table{
+	width: 91%;
+}	
+
+img.meatballday{
+	height: 100px;
+	width: 100%;
+}	
+
+img.meatball-big{
+	height: 50%;
+	width: 50%;
+	border: 5px solid black;
+}
+
+tr.day-tr {
+	text-align:center;
+	font-size: 2em;
+}
+
+h2.month{
+	text-align:center;
+}
+
+table.nut-fact,td.nut-name,tr.nuts{
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table.nut-fact{
+	width:50%;
+}
+
+p.recip{
+	font-size: 1.5em;
+	font-family: "Arial", Arial, Sans-serif;
+}
+
+a.touch:link{
+	text-decoration: none;
+	color: black;
+}
+	
+a.touch:visited{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+a.touch:hover {
+	color: orange;
+}
+
+a.touch:active {
+	color: red; 
+}
+
+img.index-imageleft{
+	float:left;
+	margin: 5px;
+	width:50%;
+	height:370px;
+}	
+
+img.index-imageleftdown{
+	clear:left;
+	position: relative;
+	margin:5px;
+	width: 50%;
+	height: 50%;
+	left:25%;
+}
+
+p.bigger-p{
+	font-size:1.8em;
+	text-align:center;
+}
+
+img.index-imageright{
+	width:100%;
+	height:760px;
+}
+
+a.editButton:link{
+    text-decoration:none;
+    color: orange;
+}	
+
+a.editButton:visited{
+    text-decoration:none;
+    color:orange;
+}
+
+a.editButton:hover{
+    color:yellow;
+}
+
+a.editButton:active{
+    color:red;
+}
+
+p.commentAlias{
+    font-weight: bold;
+    display:inline;
+}
+
+p.commentText{
+    display:inline;
+}
+
+div.footer{
+	padding: 5px;
+}
